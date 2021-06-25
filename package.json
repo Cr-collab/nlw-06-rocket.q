@@ -1,0 +1,27 @@
+{
+  "name": "rocket.q",
+  "version": "1.0.0",
+  "description": "Uma central de perguntas anonimas para geração de conteudos, Projeto desenvolvido na semana nlw 6 da rockteseat em auxilio da jaqueline",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon .",
+    "init-db":"node src/db/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cr-collab/nlw-06-rocket.q.git"
+  },
+  "keywords": [],
+  "author": "Cristiano Azevedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cr-collab/nlw-06-rocket.q/issues"
+  },
+  "homepage": "https://github.com/Cr-collab/nlw-06-rocket.q#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  }
+}
