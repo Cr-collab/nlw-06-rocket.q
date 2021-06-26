@@ -3,10 +3,10 @@
         Entre como Participante
     </h2>
 
-    <form action="">
+    <form action="/enterroom" method="post">
         <label class="sr-only" for="room-id">Codigo da Sala</label>
         <!-- o label foi criado par que os motores de busca indentifique o nosso input além da acessibilidade para nossos usuarios -->
-        <input type="number" id="room-id" placeholder="Código da Sala">
+        <input name="roomId" type="number" id="room-id" placeholder="Código da Sala">
         <button>
             <img src="images/enter-room.svg" alt="Entrar na Sala">
             Entrar na sala
